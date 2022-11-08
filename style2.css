@@ -1,0 +1,60 @@
+:root {
+  --w: 400px;
+  --h: 50px;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: var(--w);
+  height: auto;
+}
+.redcontainer {
+  display: flex;
+  width: var(--w);
+  height: var(--h);
+}
+.red {
+  flex-grow: 1;
+  background-color: red;
+}
+
+.purplecontainer {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: var(--w);
+  height: var(--h);
+  justify-content: space-between;
+}
+.purple1 {
+  background-color: purple;
+  width: 15%;
+}
+
+.bluecontainer {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  width: var(--w);
+  height: var(--h);
+  justify-content: space-around;
+}
+
+.blue1 {
+  background: lightblue;
+  width: 11%;
+}
+
+.yellowcontainer {
+  display: flex;
+  width: var(--w);
+  height: var(--h);
+  justify-content: center;
+}
+
+.yellow {
+  flex-grow: 0.75;
+  background-color: yellow;
+}

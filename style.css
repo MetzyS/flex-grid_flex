@@ -1,0 +1,93 @@
+.redcontainer {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.redbox {
+  flex-grow: 1;
+  background-color: red;
+  width: 100px;
+  height: 50px;
+}
+.purplecontainer {
+  display: grid;
+  width: 400px;
+  height: 50px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "purplebox . purplebox2 . purplebox3 . purplebox4";
+}
+.purplebox {
+  grid-area: purplebox;
+  background-color: purple;
+}
+
+.purplebox2 {
+  grid-area: purplebox2;
+  background-color: purple;
+}
+.purplebox3 {
+  grid-area: purplebox3;
+  background-color: purple;
+}
+
+.purplebox4 {
+  grid-area: purplebox4;
+  background-color: purple;
+}
+
+.bluebox {
+  grid-area: bluebox;
+  background-color: lightblue;
+}
+.bluebox2 {
+  grid-area: bluebox2;
+  background-color: lightblue;
+}
+.bluebox3 {
+  grid-area: bluebox3;
+  background-color: lightblue;
+}
+.bluebox4 {
+  grid-area: bluebox4;
+  background-color: lightblue;
+}
+.bluebox5 {
+  grid-area: bluebox5;
+  background-color: lightblue;
+}
+.bluebox6 {
+  grid-area: bluebox6;
+  background-color: lightblue;
+}
+.bluebox7 {
+  grid-area: bluebox7;
+  background-color: lightblue;
+}
+.bluebox8 {
+  grid-area: bluebox8;
+  background-color: lightblue;
+}
+.bluecontainer {
+  display: grid;
+  width: 400px;
+  height: 50px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "bluebox bluebox2 bluebox3 bluebox4 bluebox5 bluebox6 bluebox7 bluebox8";
+  gap: 5px;
+}
+.yellowcontainer {
+  display: flex;
+  width: 350px;
+  height: 50px;
+  box-sizing: border-box;
+  margin-left: 25px;
+}
+.yellowbox {
+  flex-grow: 1;
+  background-color: yellow;
+  width: 100px;
+  height: 50px;
+}
